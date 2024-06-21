@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.lgo{
+    color: rgb(193, 29, 29);
+
+
+}
+span{
+    color: rgb(164, 92, 235);
+}
+
+.main{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.main ul{
+
+    display: flex;
+    /* justify-content: space-between; */
+    margin-right: 20px;
+}
+.main li{
+justify-content: space-between;
+margin-right: 50px;
+font-size: larger;
+position: relative;
+list-style: none;
+
+
+}
+
+ a{
+    text-decoration: none;
+
+
+}
+i{
+    margin-left: 5px;
+}
+.hoveritem{
+
+    display: block;
+    position: absolute;
+    left:0px;
+    top:100%;
+    background-color: rgb(214, 189, 109);
+    text-decoration: none;
+    display: none;
+
+
+}
+.hoveritem ul{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    /* padding: 10px; */
+    margin: 10px;
+}
+.hoveritem ul li{
+    background-color: rgb(213, 194, 99);
+    margin: 3px;
+    width: 110px;
+
+}
+
+
+.main ul li:hover .hoveritem{
+
+display: block;
+
+}
+.slist{
+display: box;
+position: absolute;
+left: 110px;
+top:0%;
+text-decoration: none;
+font-size:medium;
+background-color: rgb(214, 189, 109);
+
+display:none ;
+
+
+
+}
+
+
+.main ul li ul li:hover .slist{
+
+    display: block;
+}
+/* .fa{
+    margin-right: 5px;
+} */
+
+.tlist{
+
+display: box;
+position: absolute;
+left: 110px;
+top:0%;
+background-color: rgb(214, 189, 109);
+
+display:none ;
+
+
+}
+.main ul li ul li ul li:hover .tlist{
+
+    display: block;
+}
